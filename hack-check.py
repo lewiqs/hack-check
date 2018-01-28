@@ -60,7 +60,7 @@ def full(): # Will return basic results and specific sites your emails been foun
 
         try:
             
-            for i in range (3):
+            for i in range (1000):
                 
                 data = hibp[i]['Title']
                 includes = str(hibp[i]['DataClasses'])
