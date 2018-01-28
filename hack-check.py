@@ -28,8 +28,10 @@ def basic(): # Will return basic results.
 
     if data == 'True':
         print('[X] Your email was found in the LastPass Gmail Lookup, please see https://lastpass.com/gmail/index.php or', lpgm.url,'for more information')
+        input("Press enter to exit")
     else:
         print('[!] Nothing Found [!] Ending... ')
+        input("Press enter to exit")
 
 def full(): # Will return basic results and specific sites your emails been found in.
 
@@ -78,8 +80,10 @@ def full(): # Will return basic results and specific sites your emails been foun
 
     if data == 'True':
         print('[X] Your email was found in the LastPass Gmail Lookup, please see https://lastpass.com/gmail/index.php or', lpgm.url,'for more information')
+        input("Press enter to exit")
     else:
         print('[!] Nothing Found [!] Ending... ')
+        input("Press enter to exit")
 
     
 
